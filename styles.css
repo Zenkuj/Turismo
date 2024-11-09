@@ -1,10 +1,18 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 2020px;
+  background-image: url('imagen/fondo.jpg');
+  background-size: cover; /* Para que la imagen cubra todo el fondo */
+
+    background-position: center; /* Centra la imagen */
+
+    height: 100vh; /* Asegúrate de que el cuerpo ocupe toda la altura de la ventana */
+
+    margin: 0;
 }
 
 img {
-  max-width: 2004px;
+  max-width: 202px;
   margin: 10px;
 }
 
