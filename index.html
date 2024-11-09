@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda de Imágenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Buscador de Imágenes</h1>
+    <input type="text" id="searchInput" placeholder="Escribe el nombre de la imagen...">
+    <button onclick="searchImages()">Buscar</button>
+
+    <div id="imageContainer">
+        <div id="image1Container" class="hidden">
+            <img id="image1" src="imagen/imagen1.JPG" alt="Imagen 1">
+            <p id="description1" class="description">Descripción de la Imagen 1</p>
+        </div>
+        <div id="image2Container" class="hidden">
+            <img id="image2" src="imagen/imagen2.avif" alt="Imagen 2">
+            <p id="description2" class="description">Descripción de la Imagen 2</p>
+        </div>
+        <div id="image3Container" class="hidden">
+            <img id="image3" src="imagen/Sin título.jpg" alt="Imagen 3">
+            <p id="description3" class="description">Descripción de la Imagen 2</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

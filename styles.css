@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+img {
+  max-width: 2004px;
+  margin: 10px;
+}
+
+.hidden {
+  display: none; /* Esta clase oculta las imágenes */
+}.description {
+
+  margin-top: 5px;
+
+  font-size: 14px;
+
+  color: #555;
+
+}
+.body{
+  border-color: blue;
+}
