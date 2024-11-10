@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  color: #000;
   margin: 2020px;
   background-image: url('imagen/fondo.jpg');
   background-size: cover; /* Para que la imagen cubra todo el fondo */
@@ -10,9 +11,14 @@ body {
 
     margin: 0;
 }
+.herr{
+  margin: 15px;
+  border:3xp;
+  border-color: #029c5c;
+}
 
 img {
-  max-width: 202px;
+  max-width: 204px;
   margin: 10px;
 }
 
@@ -20,11 +26,11 @@ img {
   display: none; /* Esta clase oculta las imágenes */
 }.description {
 
-  margin-top: 5px;
+  margin-top: 30px;
 
-  font-size: 14px;
+  font-size: 44px;
 
-  color: #555;
+  color: #050000;
 
 }
 .body{

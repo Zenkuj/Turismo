@@ -11,8 +11,9 @@ function searchImages() {
     image3Container.classList.add('hidden');
     image4Container.classList.add('hidden');
     image5Container.classList.add('hidden');
+    
     // Mostrar las imágenes y descripciones según el nombre ingresado
-    if (input === 'jesus') {
+    if (input === "%jesus%") {
         image1Container.classList.remove('hidden');
     
         image2Container.classList.remove('hidden');
